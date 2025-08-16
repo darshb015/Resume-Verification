@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aurora Luxe — Handcrafted & Sustainable</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="site-header" id="site-header">
+        <div class="container header-inner">
+
+            <!-- Logo -->
+            <a href="#" class="brand" aria-label="Aurora Luxe — Home">
+                <!-- If you have Gambetta as a webfont, it'll apply here; otherwise adjust the fallback -->
+                <span class="brand-mark" aria-hidden="true">A</span>
+                <span class="brand-name">Aurora Luxe</span>
+            </a>
+
+            <!-- Desktop nav -->
+            <nav class="primary-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Our Makers</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Actions -->
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Search" id="search-btn" title="Search">
+                    <!-- simple search icon -->
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+
+                <a class="cta-btn" href="#">Shop Now</a>
+
+                <button class="hamburger" id="hamburger" aria-controls="mobile-menu" aria-expanded="false"
+                    aria-label="Open menu">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu (hidden by default) -->
+        <div class="mobile-menu" id="mobile-menu" hidden aria-hidden="true">
+            <nav aria-label="Mobile primary">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Our Makers</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-cta">
+                <a class="cta-btn" href="#">Shop Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Luxury, Crafted for a Conscious World</h1>
+            <p>Discover handcrafted, sustainable, and premium lifestyle products from artisans around the globe. Every
+                piece tells a story of ethical sourcing and conscious luxury.</p>
+            <a href="#" class="cta-btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <section class="collections">
+        <div class="collections-header">
+            <h2>Discover Our Collections</h2>
+            <p>Each category features carefully curated products from talented artisans who share our commitment to
+                sustainability and exceptional craftsmanship.</p>
+        </div>
+
+        <div class="collections-grid">
+            <div class="collection-card">
+                <img src="fashion.jpg" alt="Fashion Collection">
+                <div class="collection-info">
+                    <h3>Fashion</h3>
+                    <p>Sustainable clothing & accessories</p>
+                    <a href="#">Explore →</a>
+                </div>
+            </div>
+
+            <div class="collection-card">
+                <img src="home.jpg" alt="Home Collection">
+                <div class="collection-info">
+                    <h3>Home</h3>
+                    <p>Artisanal décor & furnishings</p>
+                    <a href="#">Explore →</a>
+                </div>
+            </div>
+
+            <div class="collection-card">
+                <img src="stationery.jpg" alt="Stationery Collection">
+                <div class="collection-info">
+                    <h3>Stationery</h3>
+                    <p>Luxury paper goods & writing tools</p>
+                    <a href="#">Explore →</a>
+                </div>
+            </div>
+
+            <div class="collection-card">
+                <img src="gifting.jpg" alt="Gifting Collection">
+                <div class="collection-info">
+                    <h3>Gifting</h3>
+                    <p>Curated gift collections</p>
+                    <a href="#">Explore →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+    <h2>Featured Products</h2>
+
+    <!-- Fashion -->
+    <div class="category">
+        <h3>Fashion</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="fashion1.jpg" alt="Fashion Product">
+                <h4>Elegant Silk Scarf</h4>
+                <p>$45.00</p>
+            </div>
+            <div class="product-card">
+                <img src="fashion2.jpg" alt="Fashion Product">
+                <h4>Leather Handbag</h4>
+                <p>$120.00</p>
+            </div>
+            <div class="product-card">
+                <img src="fashion3.jpg" alt="Fashion Product">
+                <h4>Classic Sunglasses</h4>
+                <p>$65.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Decor -->
+    <div class="category">
+        <h3>Home Decor</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="decor1.jpg" alt="Home Decor Product">
+                <h4>Ceramic Vase</h4>
+                <p>$35.00</p>
+            </div>
+            <div class="product-card">
+                <img src="decor2.jpg" alt="Home Decor Product">
+                <h4>Handwoven Basket</h4>
+                <p>$28.00</p>
+            </div>
+            <div class="product-card">
+                <img src="decor3.jpg" alt="Home Decor Product">
+                <h4>Aromatic Candle Set</h4>
+                <p>$22.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stationery -->
+    <div class="category">
+        <h3>Stationery</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="stationery1.jpg" alt="Stationery Product">
+                <h4>Luxury Notebook</h4>
+                <p>$15.00</p>
+            </div>
+            <div class="product-card">
+                <img src="stationery2.jpg" alt="Stationery Product">
+                <h4>Gold Pen Set</h4>
+                <p>$20.00</p>
+            </div>
+            <div class="product-card">
+                <img src="stationery3.jpg" alt="Stationery Product">
+                <h4>Art Sketchbook</h4>
+                <p>$18.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gifts -->
+    <div class="category">
+        <h3>Gifts</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="gift1.jpg" alt="Gift Product">
+                <h4>Chocolate Hamper</h4>
+                <p>$30.00</p>
+            </div>
+            <div class="product-card">
+                <img src="gift2.jpg" alt="Gift Product">
+                <h4>Personalized Mug</h4>
+                <p>$12.00</p>
+            </div>
+            <div class="product-card">
+                <img src="gift3.jpg" alt="Gift Product">
+                <h4>Luxury Gift Box</h4>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="about">
+  <div class="about-left">
+    <span class="tag">Our Story</span>
+    <h2>Crafting a More <span>Conscious Future</span></h2>
+    <p>
+      Aurora Luxe was born from a simple belief: luxury doesn’t have to come at the cost of our planet or the people who create it.
+      We curate exceptional products that tell stories of craftsmanship, sustainability, and conscious living.
+    </p>
+    <p>
+      Every piece in our collection is a testament to the skill and dedication of artisans who pour their hearts into their craft,
+      creating beauty that lasts and making a positive impact on their communities.
+    </p>
+    <a href="#" class="cta-btn">Shop the Collection</a>
+  </div>
+
+  <div class="about-right">
+    <div class="feature">
+      <span class="icon">♡</span>
+      <div>
+        <h4>Ethically Sourced</h4>
+        <p>Every product is carefully selected from artisans who share our commitment to fair trade and sustainable practices.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <span class="icon">🌐</span>
+      <div>
+        <h4>Global Artisans</h4>
+        <p>We work with talented creators from around the world, celebrating diverse craftsmanship and cultural heritage.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <span class="icon">🏅</span>
+      <div>
+        <h4>Premium Quality</h4>
+        <p>Each piece is handcrafted with exceptional attention to detail, ensuring lasting beauty and functionality.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonial-section">
+  <div class="testimonial-overlay">
+    <div class="testimonial-header">
+      <h2>What Our Clients Say</h2>
+      <p>We pride ourselves on delivering exceptional service and creating memorable experiences.</p>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <blockquote>
+        "This has been the best experience I've ever had with a brand. Every detail was perfect."
+      </blockquote>
+      <h3>Jane Doe</h3>
+      <p class="role">CEO, Company Inc.</p>
+    </div>
+
+    <div class="testimonial-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Aurora Luxe</h3>
+            <p>Crafting a more conscious future through luxury products that honor both people and planet. Every purchase supports artisans and sustainable practices.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column footer-links">
+            <h3>Quick Links</h3>
+            <a href="#">Shop All</a>
+            <a href="#">About Us</a>
+            <a href="#">Journal</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-column footer-links">
+            <h3>Support</h3>
+            <a href="#">Shipping Info</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQ</a>
+            <a href="#">Size Guide</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <span>© 2024 Aurora Luxe. All rights reserved.</span>
+        <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
