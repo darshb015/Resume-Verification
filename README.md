@@ -7,7 +7,7 @@ Some projects are provided as **ZIP archives** (due to large file sizes), while 
 
 ## 📌 Repository Structure
 
-- **Core (Finance)**  
+- **Core (Aerospace)**  
   📦 Provided as a **ZIP archive**.  
   ➝ Download and extract locally to access the files.
 
@@ -15,15 +15,11 @@ Some projects are provided as **ZIP archives** (due to large file sizes), while 
   📦 Provided as a **ZIP archive**.  
   ➝ Download and extract locally to access the files.
 
-- **Non-Core CS**  
+- **Non-Core Coputer Science**  
   📂 Contains:
   - `ml_project.zip` → Machine Learning project (extract before use).  
   - `website/` → Website project (already included as a folder).
 
 ---
 
-## 🚀 How to Use
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-link>
